@@ -25,7 +25,7 @@ from __future__ import print_function
 
 import os
 import configparser
-from espeak import espeak
+#from espeak import espeak
 
 from gi.repository import Notify
 from gi.repository import GLib
