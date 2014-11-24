@@ -45,7 +45,7 @@ class EngineSharadaBraille(IBus.Engine):
 	
 	def __init__(self):
 		super(EngineSharadaBraille, self).__init__()
-		self.pressed_keys = u""
+		self.pressed_keys = ""
 		
 		Config = configparser.ConfigParser()
 		if (Config.read("{}/isb.cfg".format(home_dir)) == []):
